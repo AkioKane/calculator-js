@@ -28,6 +28,16 @@
     height: 90px;
     border-radius: 6px;
     background-color: white;
+    text-align: right;
+    position: relative;
+}
+
+.content {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 30px;
+    margin: 5px;
 }
 
 .buttons {
@@ -52,7 +62,8 @@
 }
 
 .operators button {
-    padding: 15px;grid-template-columns: repeat(4, 1fr);
+    padding: 15px;
+    grid-template-columns: repeat(4, 1fr);
     border: 2px solid black;
     border-radius: 5px;
 }
