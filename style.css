@@ -32,12 +32,12 @@
     position: relative;
 }
 
-.content {
+.content-current {
     position: absolute;
     bottom: 0;
     right: 0;
     font-size: 30px;
-    margin: 5px;
+    margin: 10px;
 }
 
 .buttons {
@@ -53,6 +53,14 @@
     flex: 1;
     margin-top: 15px;
     margin-bottom: 15px;
+}
+
+.buttons .clear-btn {
+    background-color: rgb(255, 160, 179);
+}
+
+.buttons .delete-btn {
+    background-color: rgb(160, 160, 255);
 }
 
 .operators {
